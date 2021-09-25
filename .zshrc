@@ -73,4 +73,4 @@ markdown() {
 
 # Greeting Code
 neofetch
-sudo zsh -c "{ rate-mirrors --allow-root arch > ~/\$\$ && mv -f ~/\$\$ /etc/pacman.d/mirrorlist } &"
+sudo zsh -c "{ rate-mirrors --allow-root arch > ~/Downloads/\$\$ && mv -f ~/Downloads/\$\$ /etc/pacman.d/mirrorlist } &"
