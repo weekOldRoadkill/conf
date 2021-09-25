@@ -26,6 +26,7 @@ alias tree="tree -aC"
 alias ls="ls --color=auto -a"
 alias grep="grep --color=auto"
 alias clipboard="xclip -selection clipboard"
+alias nelua="nelua -r -M -s -t -V --cc=clang --ldflags=-fuse-ld=lld"
 
 
 
