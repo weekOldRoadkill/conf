@@ -1,0 +1,6 @@
+#! /usr/bin/env -S zsh
+
+cp -fr ~/.config/kitty/kitty.conf kitty.conf
+cp -fr /etc/pacman.conf pacman.conf
+cp -fr ~/.vimrc .vimrc
+cp -fr ~/.zshrc .zshrc
