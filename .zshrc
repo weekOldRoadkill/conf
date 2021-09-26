@@ -67,18 +67,25 @@ markdown() {
 p() {
     if [ ${1} = "install" ]; then
         yay --devel -S ${@:2}
+
     elif [ ${1} = "update" ]; then
         yay --devel -Syuu
+
     elif [ ${1} = "remove" ]; then
         yay --devel -Rcns ${@:2}
+
     elif [ ${1} = "autoremove" ]; then
         yay --devel -Rcns $(yay -Qdtq)
+
     elif [ ${1} = "search" ]; then
         yay --devel -Ss ${@:2}
+
     elif [ ${1} = "local" ]; then
         yay --devel -Qs ${@:2}
+
     elif [ ${1} = "aur" ]; then
         yay --devel -Qm
+
     elif [ ${1} = "direct" ]; then
         yay --devel ${@:2}
     fi
