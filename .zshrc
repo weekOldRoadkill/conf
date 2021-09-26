@@ -78,7 +78,7 @@ p() {
     elif [ ${1} = "local" ]; then
         yay --devel -Qs ${@:2}
     elif [ ${1} = "aur" ]; then
-        yay -Qm
+        yay --devel -Qm
     elif [ ${1} = "direct" ]; then
         yay --devel ${@:2}
     fi
